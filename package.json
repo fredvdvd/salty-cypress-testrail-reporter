@@ -9,18 +9,11 @@
     "testrail",
     "reporter"
   ],
-  "author": {
-    "name": "Spencer Kekauoha",
-    "email": "spkekauoha@gmail.com"
-  },
+  "author": "Spencer Kekauoha <spkekauoha@gmail.com>",
   "license": "MIT",
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fredvdvd/salty-cypress-testrail-reporter"
-  },
-  "bugs": {
-    "url": ""
+    "url": "git+https://github.com/fredvdvd/salty-cypress-testrail-reporter.git"
   },
   "scripts": {
     "tsc": "tsc",
@@ -41,5 +34,9 @@
     "chai": "^3.5.0",
     "rimraf": "^2.6.3",
     "typescript": "^2.9.2"
+  },
+  "homepage": "https://github.com/fredvdvd/salty-cypress-testrail-reporter#readme",
+  "bugs": {
+    "url": "https://github.com/fredvdvd/salty-cypress-testrail-reporter/issues"
   }
 }
