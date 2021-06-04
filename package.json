@@ -1,5 +1,5 @@
 {
-  "name": "salty-cypress-testrail-reporter",
+  "name": "fredvdvd-salty-cypress-testrail-reporter",
   "version": "1.3.7",
   "description": "A Testrail reporter for cypress including TestRail API basic library",
   "main": "index.js",
