@@ -30,14 +30,7 @@ export class CypressTestRailReporter extends reporters.Spec {
       const description = executionDateTime;
 
         if (reporterOptions.createTestRun === true) {
-            this.testRail.isRunToday().then(res => {
-                this.hasBeenCreatedToday = res;
-                console.log(this.hasBeenCreatedToday)
-
-                if (!this.hasBeenCreatedToday) {
-                    this.testRail.createRun(name, description);
-                }
-            });    
+          this.testRail.createRun(name, description);
         }
     });
 
